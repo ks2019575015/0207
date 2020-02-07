@@ -1,0 +1,48 @@
+﻿/* 스타일 초기화 */
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { font-size: 14px; font-family: d2coding,d2coding,d2coding,'Times New Roman',serif; width: 100%; }
+header, footer { text-align : center ; }
+body { margin: auto; font-family: d2coding }
+footer { position: fixed; bottom: 0px; }
+
+/* 공통 스타일 */
+h1 { padding: 30px; font-size: 30px ; color: white; font: d2coding;}
+h2 { font-size: 15px; color: white; font:d2coding;}
+h3 { margin: 15px; font-size: 16px; color: rgb(75, 118, 146); font:d2coding; }
+h1, h2 { background-image: url(title.png); background-repeat: repeat-x; font-family:d2coding;}
+
+img { border: 0; padding: 2px; }
+
+nav { margin: 5px 5px; }
+nav > span > a { font-style margin: 0 ; padding: 5px; border: 2px solid rgb(75, 118, 146)
+
+; float: right; text-decoration: none; background:rgb(75, 118, 146)
+
+ ; color: white; }
+nav > span > a:hover { background: white; color: rgb(75, 118, 146); }
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+.content  { clear: both; font-family: d2coding}
+/*.section1 ul li { list-style-position: inside; list-style-image: url(""); }
+
+/* mintro.html 적용 스타일 */
+#stu-pic { width: 8em; height: 8em; float: left; font-family: d2coding}
+
+/* minfo.html 적용 스타일 */
+#year-table { table-layout: auto; width: 80%; border-collapse: seperate; }
+#year-table thead { background: rgb(132, 176, 181); }
+#logo { position: fixed; top:130px; left: 70px; opacity: 0.3; } 
+
+/* mstudy.html 적용 스타일 */
+video { margin: 5px; width: 300px; height: 200px; }
+
+/* mcareer.html 적용 스타일 */
+.semi-pic { width: 4em; height: 3em;  }
+#pic-container { overflow: hidden; }
+#pic-container:hover { height: 220px; }
+#pic1:hover { -webkit-transform: translate(150px,50px) scale(7,7); transform: scale(0.5); }
+#pic2:hover { -webkit-transform: translate(100px,50px) scale(7,7) ; transform: scale(0.5); }
+#pic3:hover { -webkit-transform: translate(30px,50px) scale(7,7); transform: scale(0.5); }
